@@ -1,4 +1,4 @@
-import { RiSearch2Line, RiRefreshLine, RiAddFill } from 'react-icons/ri'
+import { RiAddFill, RiRefreshLine, RiSearch2Line } from 'react-icons/ri'
 import FilterLenguage from './FilterLenguage'
 
 const Menu = () => {

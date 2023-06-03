@@ -1,6 +1,7 @@
 import Menu from './Menu'
 import Logo from '../../assets/Logo.png'
 import { RiMenu3Fill } from 'react-icons/ri'
+import { PropTypes } from 'prop-types'
 
 const Sidebar = ({ open, setOpen }) => {
     return (
@@ -26,3 +27,8 @@ const Sidebar = ({ open, setOpen }) => {
     )
 }
 export default Sidebar
+
+Sidebar.propTypes = {
+    open: PropTypes.bool.isRequired,
+    setOpen: PropTypes.func.isRequired
+}
