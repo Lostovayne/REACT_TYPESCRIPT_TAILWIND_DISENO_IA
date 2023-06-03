@@ -5,8 +5,8 @@ const Menu = () => {
     return (
         <section className='bg-[#121214] w-full h-full flex flex-col justify-between px-3 py-6 rounded-md '>
             <form action='' className='h-1/6'>
-                <fieldset className='bg-[#1D1D1F] flex items-center gap-3 rounded-md h-10 '>
-                    <RiSearch2Line className='text-gray-600 text-2xl cursor-pointer' />
+                <fieldset className='bg-[#1D1D1F] flex items-center gap-3 rounded-md h-10 px-3 '>
+                    <RiSearch2Line className='text-gray-600 text-2xl  cursor-pointer' />
                     <input
                         type='text'
                         placeholder='Search'
