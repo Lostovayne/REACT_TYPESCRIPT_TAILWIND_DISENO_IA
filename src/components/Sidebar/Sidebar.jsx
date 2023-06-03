@@ -1,7 +1,7 @@
-import Menu from './Menu'
-import Logo from '../../assets/Logo.png'
-import { RiMenu3Fill } from 'react-icons/ri'
 import { PropTypes } from 'prop-types'
+import { RiMenu3Fill } from 'react-icons/ri'
+import Logo from '../../assets/Logo.png'
+import Menu from './Menu'
 
 const Sidebar = ({ open, setOpen }) => {
     return (
